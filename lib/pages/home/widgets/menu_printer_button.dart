@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import '../../../../core/core.dart';
 
-
 class MenuPrinterButton extends StatelessWidget {
   final String label;
   final VoidCallback onPressed;
@@ -11,7 +10,7 @@ class MenuPrinterButton extends StatelessWidget {
   const MenuPrinterButton({
     super.key,
     required this.label,
-    required this.onPressed,
+    required this.onPressed, //description
     required this.isActive,
   });
 
